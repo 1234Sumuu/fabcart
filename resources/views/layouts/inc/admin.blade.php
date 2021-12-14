@@ -31,7 +31,7 @@
         @include('layouts.inc.adminnav')
         @include('layouts.inc.adminside')
     </header>
-    <main>
+    <main class="pt-5 mx-lg-5">
         @yield('content')
     </main>
     @include('layouts.inc.adminfooter')
@@ -55,11 +55,11 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
       {{-- <script type="text/javascript" src="{{asset('assets/js/jquery.min.js')}}"></script>
-      {{-- Bootstrap tooltip 
+      {{-- Bootstrap tooltip
       <script type="text/javascript" src="{{asset('assets/js/popper.min.js')}}"></script>
-      {{-- Bootstrap core Javascript 
+      {{-- Bootstrap core Javascript
       <script type="text/javascript" src="{{asset('assets/js/bootstrap.min.js')}}"></script>
-      {{-- MDB core javascript 
+      {{-- MDB core javascript
       <script type="text/javascript" src="{{asset('assets/js/mdb.min.js')}}"></script> --}}
 
       {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
