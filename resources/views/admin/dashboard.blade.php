@@ -1,6 +1,9 @@
 @extends('layouts.inc.admin')
 @section('content')
 
+
+{{-- From Laravel - Material Dashboard --}}
+
 <!DOCTYPE html>
 <html lang="en">
 
