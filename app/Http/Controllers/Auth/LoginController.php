@@ -29,9 +29,16 @@ class LoginController extends Controller
      */
     // protected $redirectTo = RouteServiceProvider::HOME;
     public function redirecteTo(){
+        // Admin Login
         if(Auth::user()-> role_as == 'admin'){
             return 'dashboard';
-        }else{
+        }
+        // Vendor Login
+        if(Auth::user()-> role_as == 'vendor'){
+            return 'vendor-dashboard';
+        }
+        // Normal user
+        if(Auth::user()-> role_as == NULL){
             return 'home';
         }
     }
